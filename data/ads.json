@@ -1,0 +1,20 @@
+[
+  {
+    "title": "AlfyPhone X 64GB",
+    "description": "Sleek, powerful smartphone with long battery life.",
+    "price": "$399",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "AlfySound Headphones",
+    "description": "Noise-cancelling over-ear headphones for crisp audio.",
+    "price": "$129",
+    "image": "https://images.unsplash.com/photo-1518444022154-58e9f1c9b0f9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "AlfyCam 4K",
+    "description": "Compact action camera — 4K recording and image stabilization.",
+    "price": "$199",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962be90b09?auto=format&fit=crop&w=800&q=80"
+  }
+]

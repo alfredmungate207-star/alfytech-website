@@ -1,66 +1,27 @@
-# ALFYTECH — Website Pack v1.0
+# AlfyTech Ads Portal
 
-A complete starter website for **AlfyTech**, designed around:
-- Engineering and technology content
-- Live lessons for children, students and adults
-- Alternative advertising with advertiser/company information
-- Engineer ALFY progress journal
-- Community/project showcase
-- Admin owner dashboard
-- Member dashboard
-- AlfyTech logo and responsive design
+This repository contains a simple static portal for AlfyTech advertisements. It is intended as a minimal MVP that you can host with GitHub Pages.
 
-## Run it now on your PC
+What I added
+- index.html — landing page with featured ads
+- user.html — public product listing
+- owner.html — owner dashboard with a demo login and the ability to add/delete ads (stored in localStorage)
+- assets/css/style.css — minimal branding styles
+- assets/js/app.js — client-side logic for rendering ads and demo owner flows
+- data/ads.json — sample ad data
 
-1. Install Node.js.
-2. Open this folder in a terminal.
-3. Run:
-   `node server.js`
-4. Open:
-   `http://localhost:3000`
+How to use
+1. Enable GitHub Pages for this repository (Settings → Pages) and choose the `main` branch (root). After a minute the site will be available at `https://<your-username>.github.io/alfytech-website`.
 
-No npm packages are required.
+Demo owner credentials (insecure)
+- Email: owner@alfytech.com
+- Password: alfytech123
 
-## Demo login
-Admin:
-`admin@alfytech.local`
-`alfy123`
+IMPORTANT: this demo login is client-side only and insecure — credentials and admin logic live in JavaScript and in the repository. For a production site use a real authentication backend (Firebase Auth, Auth0, or GitHub OAuth) and a server to manage ads.
 
-Member:
-`user@alfytech.local`
-`user123`
+Next improvements (I can implement if you want)
+- Replace demo auth with Firebase Authentication (I can scaffold config and rules; you'll need a Firebase account).
+- Persist ads to a simple backend (Node/Express + tiny database) or use GitHub Issues as a storage backend.
+- Add image uploads (via a storage provider) and improved UI/UX.
 
-## Important production note
-This pack is ready as a working front-end/demo site, but the demo authentication is NOT secure enough for a public business website. Before publishing, connect the login, users, lessons, advertising, posts and moderation to a real backend.
-
-Recommended production architecture:
-Frontend → Firebase Hosting/Vercel/Netlify
-Authentication → Firebase Auth
-Database → Firestore
-Images/files → Firebase Storage
-Live lessons → Google Meet/Zoom/YouTube Live links
-Analytics → privacy-conscious analytics
-
-## Domain
-A strong first choice is:
-`alfytech.co.zw`
-
-Domain availability must be checked at the time of purchase. Zimbabwe registrars provide live availability checks. You can use a .co.zw registrar and point its DNS records to your hosting provider.
-
-The domain itself cannot be purchased from inside this file pack.
-
-## Next production modules
-- Real registration and email verification
-- Admin approval of advertisers
-- Product advertiser pages
-- Lesson scheduling and attendance
-- Live classroom integration
-- Student age groups and learning paths
-- Engineering project uploads
-- Comments and moderation
-- Notifications
-- Search
-- Profiles and badges
-- Admin analytics
-- Contact/advertising enquiry forms
-- Terms, privacy and safeguarding pages
+If you want, I will now publish these files to the repository's default branch (`main`). You already confirmed — I will push the files and then show the created file list and the GitHub Pages URL to preview.
